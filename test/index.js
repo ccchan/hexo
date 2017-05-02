@@ -1,8 +1,9 @@
-'use strict';
+var chai = require('chai');
 
-describe('Hexo', function(){
+chai.use(require('chai-as-promised'));
+
+describe('Hexo', () => {
   require('./scripts/box');
-  require('./scripts/cli');
   require('./scripts/console');
   require('./scripts/extend');
   require('./scripts/filters');

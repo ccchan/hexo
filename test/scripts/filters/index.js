@@ -1,6 +1,4 @@
-'use strict';
-
-describe('Filters', function(){
+describe('Filters', () => {
   require('./backtick_code_block');
   require('./excerpt');
   require('./external_link');
@@ -9,6 +7,5 @@ describe('Filters', function(){
   require('./post_permalink');
   require('./render_post');
   require('./save_database');
-  require('./stop_watcher');
   require('./titlecase');
 });
